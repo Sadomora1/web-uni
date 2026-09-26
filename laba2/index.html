@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Document</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Pliant:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body class="all-form">
+        <form action="https://httpbin.org/post" enctype="multipart/form-data" method="POST">
+            <h1 class="info-text"> Форма обратной связи</h1>
+
+            <div class="fullname">
+                <label> ФИО</label>
+                <input type="text" placeholder="ФИО" required name="login"/>
+            </div>
+            <div class="email">
+                <label> Email</label>
+                <input type="email" placeholder="example@gmail.com" required name="email"/>
+
+            </div>
+            <div class="info-about">
+                <p class="source-about"> Откуда вы узнали про нас?</p>
+
+                <input type="radio" id="internet-rad" name="source" value="internet"/>
+                <label for="internet-rad"> Интернет</label>
+                <input type="radio" id="friend-rad" name="source" value="from friends"/>
+                <label for="friend-rad"> От друзей</label>
+                <input type="radio" id="advert-rad" name="source" value="advertise"/>
+                <label for="advert-rad"> Реклама в интернете</label>
+           </div> 
+
+            <div class="category">
+                <label> Тип обращения</label>
+
+                <select name="type">
+                    <option value="complaint"> Жалоба</option>
+                    <option value="suggestion"> Предложение</option>
+                </select>
+            </div>
+            <div class="message">
+                <label>Текст сообщения:</label>
+                <textarea name="message" placeholder="текст сообщения..."></textarea>
+            </div>
+            <div class="input-file">
+
+                <label> Вложение:</label>
+                <input type="file" name="file-input">
+
+            </div>
+
+
+            <div class="agreement">
+                <input type="checkbox" id="agree-ckbx" required name="agree"/>
+                <label for="agree-ckbx"> Даю согласие на обработку персональных данных</label>
+            </div>
+            <div class="submit">
+
+                <button type="submit"> Отправить</button>
+            </div>
+        </form>
+
+    </body>
+
+    <footer>
+        <div class="send">
+            <a href="auth.html"> Форма аутентификации</a>
+        </div>
+    </footer>
+</html>

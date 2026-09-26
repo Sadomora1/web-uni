@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+.auth,
+.all-form{
+    margin: 40px;
+    background-color: yellow;
+    text-align: left;
+}
+
+.auth form,
+.all-form form{
+    margin: 0 auto;
+    max-width: 700px;
+    padding: 20px 30px;
+    border-radius: 20px;
+    background-color: #3bad18;
+}
+
+form *{
+    margin-bottom: 7px;
+}
+
+.auth-info,
+h1.info-text {
+    text-align: center;
+}
+
+.auth-login input,
+.auth-password input,
+.fullname input,
+.email input
+{
+    margin-top: 5px;
+    display: block;
+    width:40%;
+}
+
+label,
+.info-about p
+{
+    font-weight: 650;
+}
+
+.auth-remember-chbx label,
+.agreement label{
+    font-weight: 500;
+}
+
+.email input
+{
+    margin-top: 5px;
+    display: block;
+    width:40%;
+}
+
+
+.info-about input
+{
+    margin-right:6px;
+    margin-top: 5px;
+}
+
+.info-about label
+{
+    font-weight: 400;
+    margin-right: 15px;
+}
+
+.category label
+{
+    display:block;
+}
+
+.message label
+{
+    display: block;
+    margin-bottom: 7px;
+}
+
+.message textarea
+{
+    width: 40%;
+}
+
+
+.input-file label
+{
+    display: block;
+}
+
+.auth-remember-chbx input,
+.agreement input
+{
+margin-right: 12px;
+margin-bottom: 20px;
+}
+
+.auth-submit,
+.submit
+{
+    text-align: center;
+}
+
+.send
+{
+    text-align: center;
+    margin-top: auto;
+}

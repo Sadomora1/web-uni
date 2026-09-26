@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <title>Auth</title>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body class="auth">
+        <div class="auth-form">
+            <form action="https://httpbin.org/post" method="POST">
+                <h1 class="auth-info">Вход</h1>
+                <div class="auth-login">
+                    <label> Логин</label>
+                    <input type="text" placeholder="логин" required name="login">
+                </div>
+                <div class="auth-password">
+                    <label> Пароль:</label>
+                    <input type="password" placeholder="пароль" required name="password">
+                </div>
+                <div class="auth-remember-chbx">
+                    <input type="checkbox" name="remember">
+                    <label> Запомнить меня</label>
+                </div>
+                <div class="auth-submit">
+                    <button type="submit"> Отправить</button>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
