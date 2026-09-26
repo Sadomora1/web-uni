@@ -3,6 +3,9 @@
     <head>
         <meta charset="utf-8">
         <title>Auth</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Pliant:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style.css"/>
     </head>
     <body class="auth">
@@ -10,16 +13,16 @@
             <form action="https://httpbin.org/post" method="POST">
                 <h1 class="auth-info">Вход</h1>
                 <div class="auth-login">
-                    <label> Логин</label>
-                    <input type="text" placeholder="логин" required name="login">
+                    <label for="login"> Логин</label>
+                    <input id="login" type="text" placeholder="логин" required name="login">
                 </div>
                 <div class="auth-password">
-                    <label> Пароль:</label>
-                    <input type="password" placeholder="пароль" required name="password">
+                    <label for="password"> Пароль</label>
+                    <input id="password" type="password" placeholder="пароль" required name="password">
                 </div>
                 <div class="auth-remember-chbx">
-                    <input type="checkbox" name="remember">
-                    <label> Запомнить меня</label>
+                    <input id="auth-remember" type="checkbox" name="remember">
+                    <label for="auth-remember"> Запомнить меня</label>
                 </div>
                 <div class="auth-submit">
                     <button type="submit"> Отправить</button>

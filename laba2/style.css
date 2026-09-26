@@ -2,7 +2,19 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: Roboto, sans-serif;
+    font-family: Rubick, sans-serif;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: url("images/bg.jpg") center/cover no-repeat fixed;
+
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    flex-direction: column; 
+    gap:20px;
 }
 
 .auth,
@@ -37,18 +49,18 @@ h1.info-text {
 {
     margin-top: 5px;
     display: block;
-    width:40%;
+    width:60%;
 }
 
 label,
 .info-about p
 {
-    font-weight: 650;
+    font-weight: 550;
 }
 
 .auth-remember-chbx label,
 .agreement label{
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .email input
@@ -67,7 +79,7 @@ label,
 
 .info-about label
 {
-    font-weight: 400;
+    font-weight: 300;
     margin-right: 15px;
 }
 
