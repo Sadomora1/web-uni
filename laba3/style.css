@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#good-title {
+    color: yellow;
+    background-color: rgb(153, 153, 237);
+}
+
+body {
+    font-family: 'Pliant', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #24251d;
+    background-color: #f4f3f3;
+}
+
+header h1{
+    padding-left:30px;
+    padding-top:25px;
+    padding-bottom:20px;
+    font-family: 'Pliant';
+    font-size: 40px;
+}
+
+.navigation{
+
+    padding-left:30px;
+    padding-top:20px;
+    padding-bottom:11px;
+    background-color: rgb(168, 168, 227);
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 24px;
+    color:beige;
+    margin-bottom: 10px;
+    margin-right: 50px;
+}
+
+nav a:hover {
+    color:#c6d823;
+}
+
+
+main {
+    padding: 0 100px;
+    max-width: 1000px;
+    margin: 100px auto;
+}
+
+section {
+    margin-bottom: 60px;
+    padding: 20px;
+    background-color: rgb(212, 203, 203);
+    border-radius: 20px;
+}
+
+section h2 {
+    font-family: 'Pliant', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0 ;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+section p {
+    font-family: 'Pliant', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    text-indent: 50px;
+}
+
+section.image-sect{
+    text-align: center;
+}
+
+
+
+section img {
+    width: 100%;
+    max-width: 400px;
+
+    text-align: center;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 150px;
+}
+
+section ul{
+    font-family: 'Pliant', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    padding-left: 60px;
+    list-style-type: square; 
+}
+
+section ul li{
+    font-family: 'Pliant', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 10px 0px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table th, table td {
+    border: 1px solid black;
+    font-family: 'Pliant', sans-serif;
+    font-size:16px;
+    padding: 10px;
+}
+
+table th{
+    color: black;
+    font-weight: 700;
+    text-align: center;
+}
+
+table td{
+    color:black;
+    text-align: left;
+    font-weight: 500;
+}
+
+td+td{
+    text-align: center;
+}
+
+/* господин футер */
+
+#contacts {
+    background-color: rgb(151, 151, 214);
+    color: yellow;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.contacts-paragraf{
+    font-family: 'Pliant', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.contacts-paragraf a{
+    font-weight: 500;
+    font-size: 18px;
+    color:beige;
+    margin-bottom: 10px;
+    margin-right: 50px;
+}
+
+.contacts-paragraf a:hover{
+    color:#c6d823;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex-grow: 1;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+nav a.active {
+    color: tomato;
+}
+
+@media (max-width: 800px) {
+    main {
+        padding: 0 20px;
+        margin: 30px auto;
+    }
+
+    header h1 {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 600px) {
+    nav a {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 400px) {
+    header h1 {
+        font-size: 20px;
+    }
+
+    section {
+        padding: 10px;
+    }
+
+    table th,
+    table td {
+        padding: 4px;
+        font-size: 12px;
+    }
+}
