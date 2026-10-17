@@ -1,0 +1,102 @@
+* {
+    background: none !important;
+    color: #000 !important;
+    border-radius: 0 !important;
+}
+
+nav,
+.construct-navi,
+button,
+form,
+#order,
+img {
+    display: none !important;
+}
+
+body {
+    display: block;
+    min-height: 0;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 12pt;
+    line-height: 1.2;
+}
+
+header h1 {
+    margin-bottom: 15pt;
+    padding: 0;
+    font-size: 12pt;
+}
+
+main {
+    width: auto;
+    max-width: none;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    margin: 0 0 15pt;
+    padding: 0;
+}
+
+section h2 {
+    margin-bottom: 6pt;
+    font-size: 16pt;
+    text-align: left;
+}
+
+section p {
+    font-size: 12pt;
+}
+
+section ul {
+    padding-left: 20pt;
+}
+
+section ul li {
+    margin: 3pt 0;
+    font-size: 12pt;
+}
+
+table th,
+table td {
+    padding: 4pt;
+    border: 1px solid #000;
+    font-size: 12pt;
+}
+
+.dishes {
+    display: block;
+    margin: 0;
+}
+
+.dish {
+    display: block;
+    margin: 0;
+    padding: 0 0;
+    border: none;
+    border-bottom: 1px solid #999;
+}
+
+.dish p,
+.dish-price,
+.dish-name,
+.dish-weight {
+    display: inline;
+    margin: 0;
+    font-size: 12pt;
+    font-weight: 400;
+}
+
+#contacts {
+    margin-top: 15pt;
+    padding-left: 10px;
+    border-top: 1px solid #000;
+}
+
+.contacts-paragraf,
+.contacts-paragraf a {
+    margin: 0;
+    font-size: 12pt;
+    font-weight: 400;
+}
